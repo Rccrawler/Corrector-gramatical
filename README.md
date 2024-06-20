@@ -31,5 +31,5 @@ Una breve descripción sobre lo que hace tu proyecto. **Hazlo interesante y llam
 Sigue estos sencillos pasos para instalar el proyecto:
 
 ```bash
-git clone https://github.com/usuario/nombre-proyecto.git
+git clone https://github.com/Rccrawler/Corrector-gramatical.git
 Doble clic y abrir con el navegador.
