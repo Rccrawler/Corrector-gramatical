@@ -3,7 +3,7 @@
 <!--![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)-->
 ![Versión](https://img.shields.io/badge/Versión-1.0-brightgreen.svg)
 ![Estado](https://img.shields.io/badge/Estado-Activo-success.svg)
-![Contribuciones](https://img.shields.io/badge/Contribuciones-Bienvenidas-brightgreen.svg)
+![Contribuciones](https://img.shields.io/badge/Programadores-Bienvenidos-brightgreen.svg)
 
 > **Escribe con confianza, corrige con precisión.**
 ![Banner del Proyecto](https://via.placeholder.com/1200x400.png?text=Banner+del+Proyecto)
