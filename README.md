@@ -17,9 +17,8 @@ Una breve descripción sobre lo que hace tu proyecto. **Hazlo interesante y llam
 3. [📚 Uso](#-uso)
 4. [🤝 Contribución](#-contribución)
 5. [📜 Historial de Cambios](#-historial-de-cambios)
-6. [📄 Licencia](#-licencia)
-7. [📬 Contacto](#-contacto)
-8. [📢 chat](https://github.com/Rccrawler/Corrector-gramatical/discussions)
+6. [📬 Contacto](#-contacto)
+7. [📢 chat](https://github.com/Rccrawler/Corrector-gramatical/discussions)
 
 ## ✨ Características
 - ✅ **agilidad**: Descripción breve.
