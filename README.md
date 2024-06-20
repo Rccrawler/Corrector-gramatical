@@ -25,7 +25,6 @@ Una breve descripción sobre lo que hace tu proyecto. **Hazlo interesante y llam
 - ✅ **Fácil de usar**: Descripción breve.
 - ✅ **Multiplataforma**: Descripción breve.
 - ...
-- 🎨 **Característica N**: Descripción breve.
 
 ## 🔧 Instalación
 Sigue estos sencillos pasos para instalar el proyecto:
