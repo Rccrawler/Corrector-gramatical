@@ -27,7 +27,7 @@ Una breve descripción sobre lo que hace tu proyecto. **Hazlo interesante y llam
 - ...
 
 ## 🔧 Instalación
-Sigue estos sencillos pasos para instalar el proyecto:
+Sigue estos sencillos pasos para probar el proyecto:
 
 ```bash
 git clone https://github.com/Rccrawler/Corrector-gramatical.git
