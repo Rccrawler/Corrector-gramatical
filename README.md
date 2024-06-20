@@ -32,5 +32,4 @@ Sigue estos sencillos pasos para instalar el proyecto:
 
 ```bash
 git clone https://github.com/usuario/nombre-proyecto.git
-cd nombre-proyecto
-npm install
+Doble clic y abrir con el navegador.
