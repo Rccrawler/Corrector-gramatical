@@ -19,7 +19,7 @@ Una breve descripción sobre lo que hace tu proyecto. **Hazlo interesante y llam
 5. [📜 Historial de Cambios](#-historial-de-cambios)
 6. [📄 Licencia](#-licencia)
 7. [📬 Contacto](#-contacto)
-8. [📢 chat](#-/Discussions) 
+8. [📢 chat](/Discussions) 
 
 ## ✨ Características
 - ✅ **agilidad**: Descripción breve.
