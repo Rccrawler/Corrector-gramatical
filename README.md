@@ -5,7 +5,7 @@
 ![Estado](https://img.shields.io/badge/Estado-Activo-success.svg)
 ![Contribuciones](https://img.shields.io/badge/Contribuciones-Bienvenidas-brightgreen.svg)
 
-> **Una frase inspiradora o un eslogan atractivo del proyecto.**
+> **Escribe con confianza, corrige con precisión.**
 ![Banner del Proyecto](https://via.placeholder.com/1200x400.png?text=Banner+del+Proyecto)
 
 ## 🚀 Descripción
@@ -21,9 +21,9 @@ Una breve descripción sobre lo que hace tu proyecto. **Hazlo interesante y llam
 7. [📬 Contacto](#-contacto)
 
 ## ✨ Características
-- ✅ **Característica 1**: Descripción breve.
-- ✅ **Característica 2**: Descripción breve.
-- ✅ **Característica 3**: Descripción breve.
+- ✅ **agilidad**: Descripción breve.
+- ✅ **Fácil de usar**: Descripción breve.
+- ✅ **Multiplataforma**: Descripción breve.
 - ...
 - 🎨 **Característica N**: Descripción breve.
 
