@@ -6,7 +6,7 @@
 ![Contribuciones](https://img.shields.io/badge/Programadores-Bienvenidos-brightgreen.svg)
 
 > **Escribe con confianza, corrige con precisión.**
-![Banner del Proyecto](https://via.placeholder.com/1200x400.png?text=Banner+del+Proyecto)
+![Banner del Proyecto](https://github.com/Rccrawler/Corrector-gramatical/blob/main/captura%20-%20copia.png)
 
 ## 🚀 Descripción
 Una breve descripción sobre lo que hace tu proyecto. **Hazlo interesante y llamativo.**
