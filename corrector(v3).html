@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrector Ortográfico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        #resultado {
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        
+        .incorrecto {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Corrector Ortográfico</h1>
+    <textarea id="texto" rows="10" cols="50" oninput="calcularLetras()"></textarea><br>
+    <button onclick="corregir()">Corregir</button>
+    <span id="contador"></span><br>
+    <div id="resultado"></div>
+
+    <script>
+        function corregir() {
+            var texto = document.getElementById("texto").value;
+            
+            // Palabras correctas
+            var palabrasCorrectas = ["hola", "adios", "gato", "perro", "casa"];
+            
+            // Convertimos todas las palabras del texto a minúsculas
+            texto = texto.toLowerCase();
+            
+            // Dividimos el texto en palabras y verificamos si están mal escritas
+            var palabras = texto.split(" ");
+            var resultado = "";
+            for (var i = 0; i < palabras.length; i++) {
+                var palabra = palabras[i].trim();
+                // Verificamos si la palabra está en la lista de palabras correctas
+                if (palabrasCorrectas.includes(palabra)) {
+                    resultado += palabra + " ";
+                } else {
+                    // Si la palabra está mal escrita, la marcamos como incorrecta
+                    resultado += "<span class='incorrecto'>" + palabra + "</span> ";
+                }
+            }
+            
+            // Convertimos la primera palabra a mayúscula
+            resultado = resultado.charAt(0).toUpperCase() + resultado.slice(1);
+            // Agregamos un punto al final del texto
+            resultado = resultado.trim();
+            if (resultado.slice(-1) !== ".") {
+                resultado += ".";
+            }
+            
+            document.getElementById("resultado").innerHTML = resultado;
+        }
+        
+        function calcularLetras() {
+            var texto = document.getElementById("texto").value;
+            var contador = document.getElementById("contador");
+            contador.textContent = "El texto tiene " + texto.length + " letras.";
+        }
+    </script>
+</body>
+</html>

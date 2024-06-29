@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabras del Diccionario</title>
+</head>
+<body>
+    <h4>Selecciona el archivo de palabras</h4>
+    <input type="file" id="fileInput"><br><br>
+
+    <h4>Palabras del Diccionario</h4>
+    <div id="palabras"></div><br>
+    
+    <button onclick="copiarPalabras()">Copiar Texto</button>
+
+    <script>
+        // Función para leer el contenido de un archivo de texto
+        function leerArchivo(inputFile, callback) {
+            var fileReader = new FileReader();
+
+            fileReader.onload = function() {
+                var contenido = fileReader.result;
+                callback(contenido);
+            };
+
+            fileReader.readAsText(inputFile);
+        }
+
+        // Función para formatear las palabras en el formato deseado
+        function formatearPalabras(texto) {
+            var palabras = texto.split("\n");
+            var palabrasFormateadas = [];
+
+            for (var i = 0; i < palabras.length; i++) {
+                var palabra = palabras[i].trim();
+                // Eliminar números y guiones de la palabra
+                palabra = palabra.replace(/[\d-]/g, '');
+                // Escapar las comillas dobles dentro de la palabra
+                palabra = palabra.replace(/"/g, '\\"');
+                palabrasFormateadas.push(palabra);
+            }
+
+            var palabrasHTML = palabrasFormateadas.join('", "');
+
+            document.getElementById("palabras").innerText = '"' + palabrasHTML + '"';
+        }
+
+        // Manejar la selección de archivo
+        document.getElementById("fileInput").addEventListener("change", function(event) {
+            var inputFile = event.target.files[0];
+            leerArchivo(inputFile, formatearPalabras);
+        });
+
+        // Función para copiar el texto formateado
+        function copiarPalabras() {
+            var palabras = document.getElementById("palabras").innerText;
+            navigator.clipboard.writeText(palabras).then(function() {
+                alert("Texto copiado al portapapeles.");
+            }, function() {
+                alert("Error al copiar el texto.");
+            });
+        }
+    </script>
+</body>
+</html>
+
+
